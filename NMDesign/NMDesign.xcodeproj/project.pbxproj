@@ -21,6 +21,7 @@
 		3DC1DC801F132BCB00142CD5 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */; };
 		3DC1DC871F132C6000142CD5 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC831F132C6000142CD5 /* Client.m */; };
 		3DC1DC881F132C6000142CD5 /* NMCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC851F132C6000142CD5 /* NMCar.m */; };
+		3DC1DC8B1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC8A1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		3DC1DC841F132C6000142CD5 /* NMCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMCar.h; sourceTree = "<group>"; };
 		3DC1DC851F132C6000142CD5 /* NMCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMCar.m; sourceTree = "<group>"; };
 		3DC1DC861F132C6000142CD5 /* ShearPlateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShearPlateProtocol.h; sourceTree = "<group>"; };
+		3DC1DC8A1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		3DC1DC401F132B8C00142CD5 /* NMDesign */ = {
 			isa = PBXGroup;
 			children = (
+				3DC1DC891F132D5100142CD5 /* Literature */,
 				3DC1DC811F132C5300142CD5 /* Prototype */,
 				3DC1DC741F132BCB00142CD5 /* Builder */,
 				3DC1DC441F132B8C00142CD5 /* AppDelegate.h */,
@@ -186,6 +189,14 @@
 				3DC1DC861F132C6000142CD5 /* ShearPlateProtocol.h */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		3DC1DC891F132D5100142CD5 /* Literature */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1DC8A1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf */,
+			);
+			path = Literature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC1DC8B1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf in Resources */,
 				3DC1DC511F132B8C00142CD5 /* LaunchScreen.storyboard in Resources */,
 				3DC1DC4E1F132B8C00142CD5 /* Assets.xcassets in Resources */,
 				3DC1DC4C1F132B8C00142CD5 /* Main.storyboard in Resources */,
