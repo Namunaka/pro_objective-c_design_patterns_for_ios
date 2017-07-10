@@ -15,6 +15,10 @@
 		3DC1DC511F132B8C00142CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC4F1F132B8C00142CD5 /* LaunchScreen.storyboard */; };
 		3DC1DC5C1F132B8C00142CD5 /* NMDesignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC5B1F132B8C00142CD5 /* NMDesignTests.m */; };
 		3DC1DC671F132B8D00142CD5 /* NMDesignUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC661F132B8D00142CD5 /* NMDesignUITests.m */; };
+		3DC1DC7D1F132BCB00142CD5 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC761F132BCB00142CD5 /* Character.m */; };
+		3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC781F132BCB00142CD5 /* CharacterBuilder.m */; };
+		3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC7A1F132BCB00142CD5 /* ChasingGame.m */; };
+		3DC1DC801F132BCB00142CD5 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		3DC1DC621F132B8D00142CD5 /* NMDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC1DC661F132B8D00142CD5 /* NMDesignUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMDesignUITests.m; sourceTree = "<group>"; };
 		3DC1DC681F132B8D00142CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC1DC751F132BCB00142CD5 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		3DC1DC761F132BCB00142CD5 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		3DC1DC771F132BCB00142CD5 /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		3DC1DC781F132BCB00142CD5 /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		3DC1DC791F132BCB00142CD5 /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		3DC1DC7A1F132BCB00142CD5 /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
+		3DC1DC7B1F132BCB00142CD5 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		3DC1DC401F132B8C00142CD5 /* NMDesign */ = {
 			isa = PBXGroup;
 			children = (
+				3DC1DC741F132BCB00142CD5 /* Builder */,
 				3DC1DC441F132B8C00142CD5 /* AppDelegate.h */,
 				3DC1DC451F132B8C00142CD5 /* AppDelegate.m */,
 				3DC1DC471F132B8C00142CD5 /* ViewController.h */,
@@ -138,6 +151,21 @@
 				3DC1DC681F132B8D00142CD5 /* Info.plist */,
 			);
 			path = NMDesignUITests;
+			sourceTree = "<group>";
+		};
+		3DC1DC741F132BCB00142CD5 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1DC751F132BCB00142CD5 /* Character.h */,
+				3DC1DC761F132BCB00142CD5 /* Character.m */,
+				3DC1DC771F132BCB00142CD5 /* CharacterBuilder.h */,
+				3DC1DC781F132BCB00142CD5 /* CharacterBuilder.m */,
+				3DC1DC791F132BCB00142CD5 /* ChasingGame.h */,
+				3DC1DC7A1F132BCB00142CD5 /* ChasingGame.m */,
+				3DC1DC7B1F132BCB00142CD5 /* StandardCharacterBuilder.h */,
+				3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */,
 				3DC1DC491F132B8C00142CD5 /* ViewController.m in Sources */,
 				3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */,
+				3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */,
 				3DC1DC431F132B8C00142CD5 /* main.m in Sources */,
+				3DC1DC7D1F132BCB00142CD5 /* Character.m in Sources */,
+				3DC1DC801F132BCB00142CD5 /* StandardCharacterBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

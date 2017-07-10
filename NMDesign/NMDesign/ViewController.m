@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "StandardCharacterBuilder.h"
+#import "ChasingGame.h"
+#import "Character.h"
 
 @interface ViewController ()
 
@@ -16,7 +19,13 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  
+  CharacterBuilder *characterBuilder = [[StandardCharacterBuilder alloc] init];
+  ChasingGame *game = [[ChasingGame alloc] init];
+  Character *player = [game createPlayer:characterBuilder];
+  Character *enemy = [game createEnemy:characterBuilder];
+  NSLog(@"建造者模式");
+  
 }
 
 
