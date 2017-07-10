@@ -19,6 +19,8 @@
 		3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC781F132BCB00142CD5 /* CharacterBuilder.m */; };
 		3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC7A1F132BCB00142CD5 /* ChasingGame.m */; };
 		3DC1DC801F132BCB00142CD5 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */; };
+		3DC1DC871F132C6000142CD5 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC831F132C6000142CD5 /* Client.m */; };
+		3DC1DC881F132C6000142CD5 /* NMCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC851F132C6000142CD5 /* NMCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,11 @@
 		3DC1DC7A1F132BCB00142CD5 /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
 		3DC1DC7B1F132BCB00142CD5 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
 		3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		3DC1DC821F132C6000142CD5 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		3DC1DC831F132C6000142CD5 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		3DC1DC841F132C6000142CD5 /* NMCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMCar.h; sourceTree = "<group>"; };
+		3DC1DC851F132C6000142CD5 /* NMCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMCar.m; sourceTree = "<group>"; };
+		3DC1DC861F132C6000142CD5 /* ShearPlateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShearPlateProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +120,7 @@
 		3DC1DC401F132B8C00142CD5 /* NMDesign */ = {
 			isa = PBXGroup;
 			children = (
+				3DC1DC811F132C5300142CD5 /* Prototype */,
 				3DC1DC741F132BCB00142CD5 /* Builder */,
 				3DC1DC441F132B8C00142CD5 /* AppDelegate.h */,
 				3DC1DC451F132B8C00142CD5 /* AppDelegate.m */,
@@ -166,6 +174,18 @@
 				3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		3DC1DC811F132C5300142CD5 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1DC821F132C6000142CD5 /* Client.h */,
+				3DC1DC831F132C6000142CD5 /* Client.m */,
+				3DC1DC841F132C6000142CD5 /* NMCar.h */,
+				3DC1DC851F132C6000142CD5 /* NMCar.m */,
+				3DC1DC861F132C6000142CD5 /* ShearPlateProtocol.h */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +326,8 @@
 			files = (
 				3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */,
 				3DC1DC491F132B8C00142CD5 /* ViewController.m in Sources */,
+				3DC1DC871F132C6000142CD5 /* Client.m in Sources */,
+				3DC1DC881F132C6000142CD5 /* NMCar.m in Sources */,
 				3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */,
 				3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */,
 				3DC1DC431F132B8C00142CD5 /* main.m in Sources */,

@@ -10,6 +10,8 @@
 #import "StandardCharacterBuilder.h"
 #import "ChasingGame.h"
 #import "Character.h"
+#import "Client.h"
+#import "NMCar.h"
 
 @interface ViewController ()
 
@@ -20,12 +22,21 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
+  NSLog(@"-----------------建造者模式--begin---------------");
   CharacterBuilder *characterBuilder = [[StandardCharacterBuilder alloc] init];
   ChasingGame *game = [[ChasingGame alloc] init];
   Character *player = [game createPlayer:characterBuilder];
   Character *enemy = [game createEnemy:characterBuilder];
-  NSLog(@"建造者模式");
+  NSLog(@"-----------------建造者模式--end---------------");
   
+  NSLog(@"-----------------原型模式--begin---------------");
+  Client *client = [[Client alloc] init];
+  NMCar *car = [[NMCar alloc] init];
+  car.brand = @"land rover";
+  client.shearPlate = car;
+  id <ShearPlateProtocol> newCar = [client.shearPlate clone];
+  NSLog(@"%@",((NMCar *)newCar).brand);
+  NSLog(@"-----------------原型模式--end---------------");
 }
 
 
