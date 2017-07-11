@@ -22,6 +22,18 @@
 		3DC1DC871F132C6000142CD5 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC831F132C6000142CD5 /* Client.m */; };
 		3DC1DC881F132C6000142CD5 /* NMCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC851F132C6000142CD5 /* NMCar.m */; };
 		3DC1DC8B1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC8A1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf */; };
+		3DC1DC931F14717200142CD5 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC921F14717200142CD5 /* CanvasView.m */; };
+		3DC1DC961F14729300142CD5 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC951F14729300142CD5 /* PaperCanvasView.m */; };
+		3DC1DC991F14741E00142CD5 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC981F14741E00142CD5 /* ClothCanvasView.m */; };
+		3DC1DCA11F1474C400142CD5 /* index_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC9B1F1474C400142CD5 /* index_1@2x.png */; };
+		3DC1DCA21F1474C400142CD5 /* index_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC9C1F1474C400142CD5 /* index_1@3x.png */; };
+		3DC1DCA31F1474C400142CD5 /* index_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC9D1F1474C400142CD5 /* index_2@2x.png */; };
+		3DC1DCA41F1474C400142CD5 /* index_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC9E1F1474C400142CD5 /* index_2@3x.png */; };
+		3DC1DCA51F1474C400142CD5 /* index_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC9F1F1474C400142CD5 /* index_3@2x.png */; };
+		3DC1DCA61F1474C400142CD5 /* index_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DCA01F1474C400142CD5 /* index_3@3x.png */; };
+		3DC1DCA91F14773500142CD5 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DCA81F14773500142CD5 /* CanvasViewGenerator.m */; };
+		3DC1DCAC1F1479BF00142CD5 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DCAB1F1479BF00142CD5 /* PaperCanvasViewGenerator.m */; };
+		3DC1DCAF1F147AAD00142CD5 /* ClothcanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DCAE1F147AAD00142CD5 /* ClothcanvasViewGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +84,24 @@
 		3DC1DC851F132C6000142CD5 /* NMCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMCar.m; sourceTree = "<group>"; };
 		3DC1DC861F132C6000142CD5 /* ShearPlateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShearPlateProtocol.h; sourceTree = "<group>"; };
 		3DC1DC8A1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf"; sourceTree = "<group>"; };
+		3DC1DC911F14717200142CD5 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		3DC1DC921F14717200142CD5 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		3DC1DC941F14729300142CD5 /* PaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		3DC1DC951F14729300142CD5 /* PaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		3DC1DC971F14741E00142CD5 /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		3DC1DC981F14741E00142CD5 /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		3DC1DC9B1F1474C400142CD5 /* index_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_1@2x.png"; sourceTree = "<group>"; };
+		3DC1DC9C1F1474C400142CD5 /* index_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_1@3x.png"; sourceTree = "<group>"; };
+		3DC1DC9D1F1474C400142CD5 /* index_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_2@2x.png"; sourceTree = "<group>"; };
+		3DC1DC9E1F1474C400142CD5 /* index_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_2@3x.png"; sourceTree = "<group>"; };
+		3DC1DC9F1F1474C400142CD5 /* index_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_3@2x.png"; sourceTree = "<group>"; };
+		3DC1DCA01F1474C400142CD5 /* index_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "index_3@3x.png"; sourceTree = "<group>"; };
+		3DC1DCA71F14773500142CD5 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		3DC1DCA81F14773500142CD5 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		3DC1DCAA1F1479BF00142CD5 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		3DC1DCAB1F1479BF00142CD5 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		3DC1DCAD1F147AAD00142CD5 /* ClothcanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothcanvasViewGenerator.h; sourceTree = "<group>"; };
+		3DC1DCAE1F147AAD00142CD5 /* ClothcanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothcanvasViewGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +152,7 @@
 		3DC1DC401F132B8C00142CD5 /* NMDesign */ = {
 			isa = PBXGroup;
 			children = (
+				3DC1DC8C1F13700400142CD5 /* FactoryMethod */,
 				3DC1DC891F132D5100142CD5 /* Literature */,
 				3DC1DC811F132C5300142CD5 /* Prototype */,
 				3DC1DC741F132BCB00142CD5 /* Builder */,
@@ -197,6 +228,39 @@
 				3DC1DC8A1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf */,
 			);
 			path = Literature;
+			sourceTree = "<group>";
+		};
+		3DC1DC8C1F13700400142CD5 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1DC911F14717200142CD5 /* CanvasView.h */,
+				3DC1DC921F14717200142CD5 /* CanvasView.m */,
+				3DC1DC941F14729300142CD5 /* PaperCanvasView.h */,
+				3DC1DC951F14729300142CD5 /* PaperCanvasView.m */,
+				3DC1DC971F14741E00142CD5 /* ClothCanvasView.h */,
+				3DC1DC981F14741E00142CD5 /* ClothCanvasView.m */,
+				3DC1DCA71F14773500142CD5 /* CanvasViewGenerator.h */,
+				3DC1DCA81F14773500142CD5 /* CanvasViewGenerator.m */,
+				3DC1DCAA1F1479BF00142CD5 /* PaperCanvasViewGenerator.h */,
+				3DC1DCAB1F1479BF00142CD5 /* PaperCanvasViewGenerator.m */,
+				3DC1DCAD1F147AAD00142CD5 /* ClothcanvasViewGenerator.h */,
+				3DC1DCAE1F147AAD00142CD5 /* ClothcanvasViewGenerator.m */,
+				3DC1DC9A1F1474C400142CD5 /* Resource */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		3DC1DC9A1F1474C400142CD5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3DC1DC9B1F1474C400142CD5 /* index_1@2x.png */,
+				3DC1DC9C1F1474C400142CD5 /* index_1@3x.png */,
+				3DC1DC9D1F1474C400142CD5 /* index_2@2x.png */,
+				3DC1DC9E1F1474C400142CD5 /* index_2@3x.png */,
+				3DC1DC9F1F1474C400142CD5 /* index_3@2x.png */,
+				3DC1DCA01F1474C400142CD5 /* index_3@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +372,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC1DCA61F1474C400142CD5 /* index_3@3x.png in Resources */,
+				3DC1DCA31F1474C400142CD5 /* index_2@2x.png in Resources */,
+				3DC1DCA21F1474C400142CD5 /* index_1@3x.png in Resources */,
 				3DC1DC8B1F132D5100142CD5 /* pro-objective-c-design-patterns-for-ios.9781430233305.55094.pdf in Resources */,
+				3DC1DCA51F1474C400142CD5 /* index_3@2x.png in Resources */,
 				3DC1DC511F132B8C00142CD5 /* LaunchScreen.storyboard in Resources */,
+				3DC1DCA11F1474C400142CD5 /* index_1@2x.png in Resources */,
+				3DC1DCA41F1474C400142CD5 /* index_2@3x.png in Resources */,
 				3DC1DC4E1F132B8C00142CD5 /* Assets.xcassets in Resources */,
 				3DC1DC4C1F132B8C00142CD5 /* Main.storyboard in Resources */,
 			);
@@ -336,13 +406,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC1DCAF1F147AAD00142CD5 /* ClothcanvasViewGenerator.m in Sources */,
 				3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */,
+				3DC1DCA91F14773500142CD5 /* CanvasViewGenerator.m in Sources */,
 				3DC1DC491F132B8C00142CD5 /* ViewController.m in Sources */,
 				3DC1DC871F132C6000142CD5 /* Client.m in Sources */,
 				3DC1DC881F132C6000142CD5 /* NMCar.m in Sources */,
+				3DC1DC931F14717200142CD5 /* CanvasView.m in Sources */,
+				3DC1DC991F14741E00142CD5 /* ClothCanvasView.m in Sources */,
 				3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */,
 				3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */,
 				3DC1DC431F132B8C00142CD5 /* main.m in Sources */,
+				3DC1DC961F14729300142CD5 /* PaperCanvasView.m in Sources */,
+				3DC1DCAC1F1479BF00142CD5 /* PaperCanvasViewGenerator.m in Sources */,
 				3DC1DC7D1F132BCB00142CD5 /* Character.m in Sources */,
 				3DC1DC801F132BCB00142CD5 /* StandardCharacterBuilder.m in Sources */,
 			);
@@ -582,6 +658,7 @@
 				3DC1DC6D1F132B8D00142CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC1DC6E1F132B8D00142CD5 /* Build configuration list for PBXNativeTarget "NMDesignTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +667,7 @@
 				3DC1DC701F132B8D00142CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC1DC711F132B8D00142CD5 /* Build configuration list for PBXNativeTarget "NMDesignUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +676,7 @@
 				3DC1DC731F132B8D00142CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

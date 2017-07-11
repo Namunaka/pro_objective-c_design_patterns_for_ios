@@ -13,6 +13,11 @@
 #import "Client.h"
 #import "NMCar.h"
 
+#import "CanvasViewGenerator.h"
+#import "PaperCanvasViewGenerator.h"
+#import "ClothcanvasViewGenerator.h"
+#import "CanvasView.h"
+
 @interface ViewController ()
 
 @end
@@ -29,6 +34,7 @@
   Character *enemy = [game createEnemy:characterBuilder];
   NSLog(@"-----------------建造者模式--end---------------");
   
+  
   NSLog(@"-----------------原型模式--begin---------------");
   Client *client = [[Client alloc] init];
   NMCar *car = [[NMCar alloc] init];
@@ -37,6 +43,18 @@
   id <ShearPlateProtocol> newCar = [client.shearPlate clone];
   NSLog(@"%@",((NMCar *)newCar).brand);
   NSLog(@"-----------------原型模式--end---------------");
+  
+  
+  NSLog(@"-----------------工厂模式--begin---------------");
+  CanvasViewGenerator *generator = nil;
+  //generator = [[CanvasViewGenerator alloc] init];
+  //generator = [[PaperCanvasViewGenerator alloc] init];
+  generator = [[ClothcanvasViewGenerator alloc] init];
+  
+  CGRect aFrame = CGRectMake(0, 0, 320, 436);
+  CanvasView *aCanvasView = [generator canvasViewWithFrame:aFrame];
+  [self.view addSubview:aCanvasView];
+  NSLog(@"-----------------工厂模式--end---------------");
 }
 
 
