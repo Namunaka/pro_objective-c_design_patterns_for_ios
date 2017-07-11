@@ -13,8 +13,11 @@
 - (instancetype)initWithFrame:(CGRect)frame{
   if (self = [super initWithFrame:frame]) {
     //
-    UIImage *backgroundImage = [UIImage imageNamed:@"index_1.png"];
+    UIImage *backgroundImage = [UIImage imageNamed:@"factory1.jpg"];
     UIImageView *backgroundView = [[UIImageView alloc] initWithImage:backgroundImage];
+    backgroundView.frame = frame;
+    backgroundView.clipsToBounds = YES;
+    backgroundView.contentMode = UIViewContentModeScaleAspectFill;
     [self addSubview:backgroundView];
   }
   return self;
