@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3DC1DC431F132B8C00142CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC421F132B8C00142CD5 /* main.m */; };
 		3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC451F132B8C00142CD5 /* AppDelegate.m */; };
-		3DC1DC491F132B8C00142CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC481F132B8C00142CD5 /* ViewController.m */; };
 		3DC1DC4C1F132B8C00142CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC4A1F132B8C00142CD5 /* Main.storyboard */; };
 		3DC1DC4E1F132B8C00142CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC4D1F132B8C00142CD5 /* Assets.xcassets */; };
 		3DC1DC511F132B8C00142CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC4F1F132B8C00142CD5 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,10 @@
 		3DC1DCAF1F147AAD00142CD5 /* ClothcanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DCAE1F147AAD00142CD5 /* ClothcanvasViewGenerator.m */; };
 		3DC1DCB21F14BC9400142CD5 /* factory1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DCB01F14BC9400142CD5 /* factory1.jpg */; };
 		3DC1DCB31F14BC9400142CD5 /* factory2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DCB11F14BC9400142CD5 /* factory2.jpg */; };
+		3DF999F31F2089540073D6F6 /* IndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF999F21F2089540073D6F6 /* IndexTableViewController.m */; };
+		3DF999F61F208AB70073D6F6 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF999F51F208AB70073D6F6 /* BuilderViewController.m */; };
+		3DF999F91F208CB50073D6F6 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF999F81F208CB50073D6F6 /* PrototypeViewController.m */; };
+		3DF999FC1F208EBE0073D6F6 /* FactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF999FB1F208EBE0073D6F6 /* FactoryMethodViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +57,6 @@
 		3DC1DC421F132B8C00142CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DC1DC441F132B8C00142CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DC1DC451F132B8C00142CD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DC1DC471F132B8C00142CD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DC1DC481F132B8C00142CD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DC1DC4B1F132B8C00142CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC1DC4D1F132B8C00142CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DC1DC501F132B8C00142CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,6 +95,14 @@
 		3DC1DCAE1F147AAD00142CD5 /* ClothcanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothcanvasViewGenerator.m; sourceTree = "<group>"; };
 		3DC1DCB01F14BC9400142CD5 /* factory1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = factory1.jpg; sourceTree = "<group>"; };
 		3DC1DCB11F14BC9400142CD5 /* factory2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = factory2.jpg; sourceTree = "<group>"; };
+		3DF999F11F2089540073D6F6 /* IndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexTableViewController.h; sourceTree = "<group>"; };
+		3DF999F21F2089540073D6F6 /* IndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexTableViewController.m; sourceTree = "<group>"; };
+		3DF999F41F208AB70073D6F6 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		3DF999F51F208AB70073D6F6 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		3DF999F71F208CB50073D6F6 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
+		3DF999F81F208CB50073D6F6 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
+		3DF999FA1F208EBE0073D6F6 /* FactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodViewController.h; sourceTree = "<group>"; };
+		3DF999FB1F208EBE0073D6F6 /* FactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,14 +153,15 @@
 		3DC1DC401F132B8C00142CD5 /* NMDesign */ = {
 			isa = PBXGroup;
 			children = (
+				3DC1DCB41F14C6DB00142CD5 /* AbstractFactory */,
 				3DC1DC8C1F13700400142CD5 /* FactoryMethod */,
 				3DC1DC891F132D5100142CD5 /* Literature */,
 				3DC1DC811F132C5300142CD5 /* Prototype */,
 				3DC1DC741F132BCB00142CD5 /* Builder */,
 				3DC1DC441F132B8C00142CD5 /* AppDelegate.h */,
 				3DC1DC451F132B8C00142CD5 /* AppDelegate.m */,
-				3DC1DC471F132B8C00142CD5 /* ViewController.h */,
-				3DC1DC481F132B8C00142CD5 /* ViewController.m */,
+				3DF999F11F2089540073D6F6 /* IndexTableViewController.h */,
+				3DF999F21F2089540073D6F6 /* IndexTableViewController.m */,
 				3DC1DC4A1F132B8C00142CD5 /* Main.storyboard */,
 				3DC1DC4D1F132B8C00142CD5 /* Assets.xcassets */,
 				3DC1DC4F1F132B8C00142CD5 /* LaunchScreen.storyboard */,
@@ -198,6 +208,8 @@
 				3DC1DC7A1F132BCB00142CD5 /* ChasingGame.m */,
 				3DC1DC7B1F132BCB00142CD5 /* StandardCharacterBuilder.h */,
 				3DC1DC7C1F132BCB00142CD5 /* StandardCharacterBuilder.m */,
+				3DF999F41F208AB70073D6F6 /* BuilderViewController.h */,
+				3DF999F51F208AB70073D6F6 /* BuilderViewController.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -210,6 +222,8 @@
 				3DC1DC841F132C6000142CD5 /* NMCar.h */,
 				3DC1DC851F132C6000142CD5 /* NMCar.m */,
 				3DC1DC861F132C6000142CD5 /* ShearPlateProtocol.h */,
+				3DF999F71F208CB50073D6F6 /* PrototypeViewController.h */,
+				3DF999F81F208CB50073D6F6 /* PrototypeViewController.m */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -237,6 +251,8 @@
 				3DC1DCAB1F1479BF00142CD5 /* PaperCanvasViewGenerator.m */,
 				3DC1DCAD1F147AAD00142CD5 /* ClothcanvasViewGenerator.h */,
 				3DC1DCAE1F147AAD00142CD5 /* ClothcanvasViewGenerator.m */,
+				3DF999FA1F208EBE0073D6F6 /* FactoryMethodViewController.h */,
+				3DF999FB1F208EBE0073D6F6 /* FactoryMethodViewController.m */,
 				3DC1DC9A1F1474C400142CD5 /* Resource */,
 			);
 			path = FactoryMethod;
@@ -249,6 +265,13 @@
 				3DC1DCB11F14BC9400142CD5 /* factory2.jpg */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		3DC1DCB41F14C6DB00142CD5 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,12 +416,15 @@
 				3DC1DCAF1F147AAD00142CD5 /* ClothcanvasViewGenerator.m in Sources */,
 				3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */,
 				3DC1DCA91F14773500142CD5 /* CanvasViewGenerator.m in Sources */,
-				3DC1DC491F132B8C00142CD5 /* ViewController.m in Sources */,
+				3DF999F91F208CB50073D6F6 /* PrototypeViewController.m in Sources */,
+				3DF999F31F2089540073D6F6 /* IndexTableViewController.m in Sources */,
 				3DC1DC871F132C6000142CD5 /* Client.m in Sources */,
 				3DC1DC881F132C6000142CD5 /* NMCar.m in Sources */,
+				3DF999F61F208AB70073D6F6 /* BuilderViewController.m in Sources */,
 				3DC1DC931F14717200142CD5 /* CanvasView.m in Sources */,
 				3DC1DC991F14741E00142CD5 /* ClothCanvasView.m in Sources */,
 				3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */,
+				3DF999FC1F208EBE0073D6F6 /* FactoryMethodViewController.m in Sources */,
 				3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */,
 				3DC1DC431F132B8C00142CD5 /* main.m in Sources */,
 				3DC1DC961F14729300142CD5 /* PaperCanvasView.m in Sources */,
@@ -555,6 +581,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7524R5UJ2G;
 				INFOPLIST_FILE = NMDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.NMDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -567,6 +594,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7524R5UJ2G;
 				INFOPLIST_FILE = NMDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.NMDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
