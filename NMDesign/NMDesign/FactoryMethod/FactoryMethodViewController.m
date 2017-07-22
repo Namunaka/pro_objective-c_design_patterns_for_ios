@@ -22,9 +22,11 @@
   
   NSLog(@"-----------------工厂模式--begin---------------");
   CanvasViewGenerator *generator = nil;
+  
   //generator = [[CanvasViewGenerator alloc] init];
   generator = [[PaperCanvasViewGenerator alloc] init];
   //generator = [[ClothcanvasViewGenerator alloc] init];
+  
   
   CGRect aFrame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 400);
   CanvasView *aCanvasView = [generator canvasViewWithFrame:aFrame];
