@@ -18,19 +18,19 @@
 /**
  pizaa 酱料
  */
-- (NSString *)pizzaSauce {
+- (Sauce *)pizzaSauce {
   return nil;
 }
 /**
  pizaa 面粉
  */
-- (NSString *)pizzaFlour {
+- (Flour *)pizzaFlour {
   return nil;
 }
 /**
  pizaa 辅料
  */
-- (NSString *)pizzaAccessory{
+- (Accessory *)pizzaAccessory {
   return nil;
 }
 

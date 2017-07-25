@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Sauce.h"
+#import "Flour.h"
+#import "Accessory.h"
 
 @interface PizzaFactory : NSObject
 
@@ -15,14 +18,14 @@
 /**
  pizaa 酱料
  */
-- (NSString *)pizzaSauce;
+- (Sauce *)pizzaSauce;
 /**
  pizaa 面粉
  */
-- (NSString *)pizzaFlour;
+- (Flour *)pizzaFlour;
 /**
  pizaa 辅料
  */
-- (NSString *)pizzaAccessory;
+- (Accessory *)pizzaAccessory;
 
 @end

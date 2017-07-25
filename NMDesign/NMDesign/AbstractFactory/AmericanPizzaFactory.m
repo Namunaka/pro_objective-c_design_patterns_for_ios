@@ -7,25 +7,28 @@
 //
 
 #import "AmericanPizzaFactory.h"
+#import "AmericanSauce.h"
+#import "AmericanFlour.h"
+#import "AmericanAccessory.h"
 
 @implementation AmericanPizzaFactory
 /**
  pizaa 酱料
  */
-- (NSString *)pizzaSauce {
-  return @"芝士 辣椒酱 番茄酱";
+- (Sauce *)pizzaSauce {
+
+  return [AmericanSauce new];
 }
 /**
  pizaa 面粉
  */
-- (NSString *)pizzaFlour {
-  return @"柔和面粉";
+- (Flour *)pizzaFlour {
+  return [AmericanFlour new];
 }
 /**
  pizaa 辅料
  */
-- (NSString *)pizzaAccessory {
-  return @"洋葱 火腿 酸黄瓜 奇怪的东西";
+- (Accessory *)pizzaAccessory {
+  return [AmericanAccessory new];
 }
-
 @end

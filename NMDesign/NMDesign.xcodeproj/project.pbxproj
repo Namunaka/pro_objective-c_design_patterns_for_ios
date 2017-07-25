@@ -10,6 +10,15 @@
 		3DB652411F234421000E4345 /* PizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652401F234421000E4345 /* PizzaFactory.m */; };
 		3DB652441F23459A000E4345 /* HawaiiPizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652431F23459A000E4345 /* HawaiiPizzaFactory.m */; };
 		3DB652471F2345B9000E4345 /* AmericanPizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB652461F2345B9000E4345 /* AmericanPizzaFactory.m */; };
+		3DB654151F26F5E4000E4345 /* Sauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB654141F26F5E4000E4345 /* Sauce.m */; };
+		3DB654181F26F5F2000E4345 /* Flour.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB654171F26F5F2000E4345 /* Flour.m */; };
+		3DB6541B1F26F5FC000E4345 /* Accessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6541A1F26F5FC000E4345 /* Accessory.m */; };
+		3DB6541E1F26F625000E4345 /* HawaiiSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6541D1F26F625000E4345 /* HawaiiSauce.m */; };
+		3DB654211F26F63B000E4345 /* HawaiiFlour.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB654201F26F63B000E4345 /* HawaiiFlour.m */; };
+		3DB654241F26F649000E4345 /* HawaiiAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB654231F26F649000E4345 /* HawaiiAccessory.m */; };
+		3DB654271F26F660000E4345 /* AmericanAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB654261F26F660000E4345 /* AmericanAccessory.m */; };
+		3DB6542A1F26F682000E4345 /* AmericanFlour.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB654291F26F682000E4345 /* AmericanFlour.m */; };
+		3DB6542D1F26F692000E4345 /* AmericanSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6542C1F26F692000E4345 /* AmericanSauce.m */; };
 		3DC1DC431F132B8C00142CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC421F132B8C00142CD5 /* main.m */; };
 		3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1DC451F132B8C00142CD5 /* AppDelegate.m */; };
 		3DC1DC4C1F132B8C00142CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC1DC4A1F132B8C00142CD5 /* Main.storyboard */; };
@@ -63,6 +72,24 @@
 		3DB652431F23459A000E4345 /* HawaiiPizzaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HawaiiPizzaFactory.m; sourceTree = "<group>"; };
 		3DB652451F2345B9000E4345 /* AmericanPizzaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanPizzaFactory.h; sourceTree = "<group>"; };
 		3DB652461F2345B9000E4345 /* AmericanPizzaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanPizzaFactory.m; sourceTree = "<group>"; };
+		3DB654131F26F5E4000E4345 /* Sauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sauce.h; sourceTree = "<group>"; };
+		3DB654141F26F5E4000E4345 /* Sauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sauce.m; sourceTree = "<group>"; };
+		3DB654161F26F5F2000E4345 /* Flour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flour.h; sourceTree = "<group>"; };
+		3DB654171F26F5F2000E4345 /* Flour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flour.m; sourceTree = "<group>"; };
+		3DB654191F26F5FC000E4345 /* Accessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessory.h; sourceTree = "<group>"; };
+		3DB6541A1F26F5FC000E4345 /* Accessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accessory.m; sourceTree = "<group>"; };
+		3DB6541C1F26F624000E4345 /* HawaiiSauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HawaiiSauce.h; sourceTree = "<group>"; };
+		3DB6541D1F26F625000E4345 /* HawaiiSauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HawaiiSauce.m; sourceTree = "<group>"; };
+		3DB6541F1F26F63B000E4345 /* HawaiiFlour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HawaiiFlour.h; sourceTree = "<group>"; };
+		3DB654201F26F63B000E4345 /* HawaiiFlour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HawaiiFlour.m; sourceTree = "<group>"; };
+		3DB654221F26F649000E4345 /* HawaiiAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HawaiiAccessory.h; sourceTree = "<group>"; };
+		3DB654231F26F649000E4345 /* HawaiiAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HawaiiAccessory.m; sourceTree = "<group>"; };
+		3DB654251F26F660000E4345 /* AmericanAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanAccessory.h; sourceTree = "<group>"; };
+		3DB654261F26F660000E4345 /* AmericanAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanAccessory.m; sourceTree = "<group>"; };
+		3DB654281F26F682000E4345 /* AmericanFlour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanFlour.h; sourceTree = "<group>"; };
+		3DB654291F26F682000E4345 /* AmericanFlour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanFlour.m; sourceTree = "<group>"; };
+		3DB6542B1F26F692000E4345 /* AmericanSauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanSauce.h; sourceTree = "<group>"; };
+		3DB6542C1F26F692000E4345 /* AmericanSauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanSauce.m; sourceTree = "<group>"; };
 		3DC1DC3E1F132B8C00142CD5 /* NMDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC1DC421F132B8C00142CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DC1DC441F132B8C00142CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -290,6 +317,24 @@
 				3DB652431F23459A000E4345 /* HawaiiPizzaFactory.m */,
 				3DB652451F2345B9000E4345 /* AmericanPizzaFactory.h */,
 				3DB652461F2345B9000E4345 /* AmericanPizzaFactory.m */,
+				3DB654131F26F5E4000E4345 /* Sauce.h */,
+				3DB654141F26F5E4000E4345 /* Sauce.m */,
+				3DB6541C1F26F624000E4345 /* HawaiiSauce.h */,
+				3DB6541D1F26F625000E4345 /* HawaiiSauce.m */,
+				3DB6542B1F26F692000E4345 /* AmericanSauce.h */,
+				3DB6542C1F26F692000E4345 /* AmericanSauce.m */,
+				3DB654161F26F5F2000E4345 /* Flour.h */,
+				3DB654171F26F5F2000E4345 /* Flour.m */,
+				3DB6541F1F26F63B000E4345 /* HawaiiFlour.h */,
+				3DB654201F26F63B000E4345 /* HawaiiFlour.m */,
+				3DB654281F26F682000E4345 /* AmericanFlour.h */,
+				3DB654291F26F682000E4345 /* AmericanFlour.m */,
+				3DB654191F26F5FC000E4345 /* Accessory.h */,
+				3DB6541A1F26F5FC000E4345 /* Accessory.m */,
+				3DB654221F26F649000E4345 /* HawaiiAccessory.h */,
+				3DB654231F26F649000E4345 /* HawaiiAccessory.m */,
+				3DB654251F26F660000E4345 /* AmericanAccessory.h */,
+				3DB654261F26F660000E4345 /* AmericanAccessory.m */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -434,7 +479,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF999FF1F2090A00073D6F6 /* AbstractFactoryViewController.m in Sources */,
+				3DB6542D1F26F692000E4345 /* AmericanSauce.m in Sources */,
 				3DB652411F234421000E4345 /* PizzaFactory.m in Sources */,
+				3DB654271F26F660000E4345 /* AmericanAccessory.m in Sources */,
+				3DB6541E1F26F625000E4345 /* HawaiiSauce.m in Sources */,
+				3DB654241F26F649000E4345 /* HawaiiAccessory.m in Sources */,
 				3DC1DCAF1F147AAD00142CD5 /* ClothcanvasViewGenerator.m in Sources */,
 				3DC1DC7E1F132BCB00142CD5 /* CharacterBuilder.m in Sources */,
 				3DC1DCA91F14773500142CD5 /* CanvasViewGenerator.m in Sources */,
@@ -448,12 +497,17 @@
 				3DC1DC991F14741E00142CD5 /* ClothCanvasView.m in Sources */,
 				3DC1DC461F132B8C00142CD5 /* AppDelegate.m in Sources */,
 				3DF999FC1F208EBE0073D6F6 /* FactoryMethodViewController.m in Sources */,
+				3DB654211F26F63B000E4345 /* HawaiiFlour.m in Sources */,
+				3DB654151F26F5E4000E4345 /* Sauce.m in Sources */,
+				3DB6542A1F26F682000E4345 /* AmericanFlour.m in Sources */,
 				3DC1DC7F1F132BCB00142CD5 /* ChasingGame.m in Sources */,
 				3DC1DC431F132B8C00142CD5 /* main.m in Sources */,
+				3DB654181F26F5F2000E4345 /* Flour.m in Sources */,
 				3DC1DC961F14729300142CD5 /* PaperCanvasView.m in Sources */,
 				3DC1DCAC1F1479BF00142CD5 /* PaperCanvasViewGenerator.m in Sources */,
 				3DC1DC7D1F132BCB00142CD5 /* Character.m in Sources */,
 				3DB652441F23459A000E4345 /* HawaiiPizzaFactory.m in Sources */,
+				3DB6541B1F26F5FC000E4345 /* Accessory.m in Sources */,
 				3DC1DC801F132BCB00142CD5 /* StandardCharacterBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

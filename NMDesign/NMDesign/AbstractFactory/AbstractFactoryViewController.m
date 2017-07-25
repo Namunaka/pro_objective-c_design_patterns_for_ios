@@ -22,9 +22,9 @@
   
   PizzaFactory *factory = [PizzaFactory factory];
   
-  NSLog(@"%@",[factory pizzaSauce]);
-  NSLog(@"%@",[factory pizzaFlour]);
-  NSLog(@"%@",[factory pizzaAccessory]);
+  NSLog(@"%@",[factory pizzaSauce].sauce);
+  NSLog(@"%@",[factory pizzaFlour].flour);
+  NSLog(@"%@",[factory pizzaAccessory].accessory);
   
   NSLog(@"-----------------抽象工厂--end---------------");
 
